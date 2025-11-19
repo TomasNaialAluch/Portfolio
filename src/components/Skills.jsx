@@ -1,7 +1,20 @@
-import { FaReact, FaHtml5, FaCss3Alt, FaFigma, FaGithub } from 'react-icons/fa'
-import { SiJavascript, SiNextdotjs, SiFirebase, SiN8N, SiMake } from 'react-icons/si'
+import { FaReact, FaHtml5, FaCss3Alt, FaFigma, FaGithub, FaCode } from 'react-icons/fa'
+import { SiJavascript, SiNextdotjs, SiFirebase } from 'react-icons/si'
 import { DiPhotoshop, DiIllustrator } from 'react-icons/di'
 import './Skills.css'
+
+// Iconos personalizados para n8n y Make
+const N8NIcon = () => (
+  <svg viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em">
+    <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z"/>
+  </svg>
+)
+
+const MakeIcon = () => (
+  <svg viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em">
+    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+  </svg>
+)
 
 const Skills = () => {
   const skillCategories = [
@@ -15,12 +28,12 @@ const Skills = () => {
         { name: 'CSS3', icon: <FaCss3Alt />, level: 90 },
       ]
     },
-    {
+      {
       title: 'Backend & Servicios',
       skills: [
         { name: 'Firebase', icon: <SiFirebase />, level: 75 },
-        { name: 'n8n', icon: <SiN8N />, level: 60 },
-        { name: 'Make', icon: <SiMake />, level: 60 },
+        { name: 'n8n', icon: <N8NIcon />, level: 60 },
+        { name: 'Make', icon: <MakeIcon />, level: 60 },
       ]
     },
     {
