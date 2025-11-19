@@ -18,7 +18,7 @@ const Projects = () => {
       description: 'Aplicación web desarrollada con Next.js. Proyecto moderno con SSR y optimizaciones de rendimiento.',
       technologies: ['Next.js', 'React', 'CSS'],
       github: 'https://github.com/TomasNaialAluch/RositaNext',
-      live: 'https://rosita-b76eb.web.app/',
+      live: 'https://rosita-b76eb.web.app/tienda/',
       image: '/projects/rosita.jpg'
     },
     {
