@@ -41,6 +41,24 @@ const Projects = () => {
       github: 'https://github.com/TomasNaialAluch/pazmental',
       live: 'https://tomasnaialaluch.github.io/pazmental/',
       image: null
+    },
+    {
+      id: 5,
+      title: 'Nosotros',
+      description: 'Aplicación web desarrollada con Next.js y TypeScript. Proyecto moderno con funcionalidades avanzadas.',
+      technologies: ['Next.js', 'TypeScript', 'React'],
+      github: 'https://github.com/TomasNaialAluch/NosotrosApp',
+      live: '#',
+      image: null
+    },
+    {
+      id: 6,
+      title: 'Boysenberry',
+      description: 'Página demo de una aseguradora de auto. Diseño moderno desarrollado con HTML, CSS y SCSS.',
+      technologies: ['HTML', 'CSS', 'SCSS'],
+      github: 'https://github.com/TomasNaialAluch/Boysenberry',
+      live: '#',
+      image: null
     }
   ]
 
