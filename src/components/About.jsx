@@ -12,7 +12,7 @@ const About = () => {
         <div className="about-content">
           <div className="about-text">
             <p>
-              Soy Tomás Aluch, un desarrollador Front End y diseñador UX/UI de Argentina. 
+              Soy Tomás Naial Aluch, un desarrollador Front End y diseñador UX/UI de Argentina. 
               Mi pasión es combinar diseño y código para crear interfaces que no solo se vean 
               bien, sino que también funcionen de manera intuitiva y eficiente.
             </p>

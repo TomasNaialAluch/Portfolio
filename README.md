@@ -1,6 +1,6 @@
-# Portfolio - Tomás Aluch
+# Portfolio - Tomás Naial Aluch
 
-Portfolio personal de Tomás Aluch, desarrollador Front End y diseñador UX/UI.
+Portfolio personal de Tomás Naial Aluch, desarrollador Front End y diseñador UX/UI.
 
 ## 🚀 Tecnologías
 
@@ -106,7 +106,7 @@ El proyecto también puede ser desplegado en:
 
 ## 👤 Autor
 
-**Tomás Aluch**
+**Tomás Naial Aluch**
 - GitHub: [@TomasNaialAluch](https://github.com/TomasNaialAluch)
 - Behance: [tomasaluch](https://www.behance.net/tomasaluch)
 

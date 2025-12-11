@@ -1,7 +1,4 @@
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'
-import fiestukiImg from '../assets/images/Fiestuki.png'
-import rositaNextImg from '../assets/images/RositaNext.png'
-import pastaVicenzoImg from '../assets/images/Pastavicenzo.jpg'
 import './Projects.css'
 
 const Projects = () => {
@@ -13,52 +10,34 @@ const Projects = () => {
       technologies: ['React', 'Firebase', 'CSS'],
       github: 'https://github.com/TomasNaialAluch/Fiestuki',
       live: 'https://fiestuki-db.web.app/',
-      image: fiestukiImg
+      image: '/projects/fiestuki.jpg'
     },
     {
       id: 2,
-      title: 'Pasta Vicenzo',
-      description: 'Aplicación web desarrollada con React. Proyecto de e-commerce con funcionalidades avanzadas.',
-      technologies: ['React', 'CSS', 'Firebase'],
-      github: 'https://github.com/TomasNaialAluch/PastaVicenzo',
-      live: 'https://pastavicenzo.web.app/tienda',
-      image: pastaVicenzoImg
-    },
-    {
-      id: 3,
-      title: 'Rosita',
+      title: 'RositaNext',
       description: 'Aplicación web desarrollada con Next.js. Proyecto moderno con SSR y optimizaciones de rendimiento.',
       technologies: ['Next.js', 'React', 'CSS'],
       github: 'https://github.com/TomasNaialAluch/RositaNext',
       live: 'https://rosita-b76eb.web.app/tienda/',
-      image: rositaNextImg
+      image: '/projects/rosita.jpg'
     },
     {
-      id: 4,
+      id: 3,
       title: 'Paz Mental',
       description: 'Sitio web estático desarrollado con HTML, CSS y JavaScript. Desplegado en GitHub Pages.',
       technologies: ['HTML', 'CSS', 'JavaScript'],
       github: 'https://github.com/TomasNaialAluch/pazmental',
       live: 'https://tomasnaialaluch.github.io/pazmental/',
-      image: null
+      image: '/projects/pazmental.jpg'
     },
     {
-      id: 5,
-      title: 'Nosotros',
-      description: 'Aplicación web desarrollada con Next.js y TypeScript. Proyecto moderno con funcionalidades avanzadas.',
-      technologies: ['Next.js', 'TypeScript', 'React'],
-      github: 'https://github.com/TomasNaialAluch/NosotrosApp',
+      id: 4,
+      title: 'Pasta Vicenzo',
+      description: 'Aplicación web desarrollada con React. Proyecto de e-commerce con funcionalidades avanzadas.',
+      technologies: ['React', 'CSS', 'Firebase'],
+      github: 'https://github.com/TomasNaialAluch/PastaVicenzo',
       live: '#',
-      image: null
-    },
-    {
-      id: 6,
-      title: 'Boysenberry',
-      description: 'Página demo de una aseguradora de auto. Diseño moderno desarrollado con HTML, CSS y SCSS.',
-      technologies: ['HTML', 'CSS', 'SCSS'],
-      github: 'https://github.com/TomasNaialAluch/Boysenberry',
-      live: '#',
-      image: null
+      image: '/projects/pastavicenzo.jpg'
     }
   ]
 
@@ -73,18 +52,10 @@ const Projects = () => {
         <div className="projects-grid">
           {projects.map((project) => (
             <div key={project.id} className="project-card">
-              <div className={`project-image ${project.image ? 'has-image' : ''}`}>
-                {project.image ? (
-                  <img 
-                    src={project.image} 
-                    alt={project.title}
-                    className="project-img"
-                  />
-                ) : (
-                  <div className="project-placeholder">
-                    <span>{project.title.charAt(0)}</span>
-                  </div>
-                )}
+              <div className="project-image">
+                <div className="project-placeholder">
+                  <span>{project.title.charAt(0)}</span>
+                </div>
                 <div className="project-overlay">
                   <a 
                     href={project.github} 

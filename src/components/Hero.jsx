@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { FaGithub, FaLinkedin, FaBehance, FaArrowDown } from 'react-icons/fa'
+import fotoCV from '../assets/images/Foto CV.png'
 import './Hero.css'
 
 const Hero = () => {
@@ -15,7 +16,7 @@ const Hero = () => {
         <div className="hero-content">
           <div className="hero-text">
             <h1 className="hero-title">
-              Hola, soy <span className="highlight">Tomás Aluch</span>
+              Hola, soy <span className="highlight">Tomás Naial Aluch</span>
             </h1>
             <h2 className="hero-subtitle">
               Desarrollador Front End & Diseñador UX/UI
@@ -78,9 +79,11 @@ const Hero = () => {
           
           <div className="hero-image">
             <div className="hero-avatar">
-              <div className="avatar-placeholder">
-                <span>TA</span>
-              </div>
+              <img 
+                src={fotoCV}
+                alt="Tomás Naial Aluch"
+                className="avatar-image"
+              />
             </div>
           </div>
         </div>

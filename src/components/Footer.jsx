@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container">
         <div className="footer-content">
           <div className="footer-text">
-            <p>&copy; {currentYear} Tomás Aluch. Todos los derechos reservados.</p>
+            <p>&copy; {currentYear} Tomás Naial Aluch. Todos los derechos reservados.</p>
           </div>
           
           <div className="footer-social">
