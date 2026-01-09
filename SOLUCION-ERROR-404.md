@@ -43,12 +43,16 @@ El `index.html` que GitHub Pages debe servir debería tener:
 
 ## Si el Problema Persiste
 
-### Opción 1: Verificar Configuración de GitHub Pages
+### Opción 1: Cambiar Configuración de GitHub Pages (IMPORTANTE)
+
+**ESTE ES EL PROBLEMA PRINCIPAL:** GitHub Pages está configurado para desplegar desde una rama, pero necesita usar GitHub Actions.
 
 1. Ve a: https://github.com/TomasNaialAluch/Portfolio/settings/pages
-2. Asegúrate de que:
-   - **Source** esté en **"GitHub Actions"**
-   - El sitio muestre **"Your site is live at..."**
+2. En la sección **"Build and deployment"**:
+   - Cambia **"Source"** de **"Deploy from a branch"** a **"GitHub Actions"**
+   - Si no ves la opción "GitHub Actions", haz clic en el dropdown de "Source" y selecciona **"GitHub Actions"**
+3. Guarda los cambios
+4. El sitio debería decir: **"Your site is live at https://tomasnaialaluch.github.io/Portfolio/"** y mostrar que fue desplegado por un workflow de GitHub Actions
 
 ### Opción 2: Ejecutar el Workflow Manualmente
 
