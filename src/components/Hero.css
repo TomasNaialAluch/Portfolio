@@ -235,6 +235,17 @@
   font-size: 1.5rem;
   animation: bounce 2s infinite;
   cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 10;
+}
+
+.scroll-indicator:hover {
+  color: var(--primary-color);
+  transform: translateX(-50%) scale(1.2);
+}
+
+.scroll-indicator:active {
+  transform: translateX(-50%) scale(1.1);
 }
 
 @keyframes bounce {

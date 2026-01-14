@@ -88,7 +88,27 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="scroll-indicator">
+        <div 
+          className="scroll-indicator"
+          onClick={() => {
+            const projectsSection = document.getElementById('projects')
+            if (projectsSection) {
+              projectsSection.scrollIntoView({ behavior: 'smooth' })
+            }
+          }}
+          role="button"
+          tabIndex={0}
+          onKeyDown={(e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault()
+              const projectsSection = document.getElementById('projects')
+              if (projectsSection) {
+                projectsSection.scrollIntoView({ behavior: 'smooth' })
+              }
+            }
+          }}
+          aria-label="Desplazarse a la sección de proyectos"
+        >
           <FaArrowDown />
         </div>
       </div>

@@ -75,3 +75,5 @@ El `index.html` que GitHub Pages debe servir (después del build) debería tener
 ✅ Build local funciona correctamente  
 ⏳ **NECESITAS**: Cambiar la configuración de GitHub Pages a "GitHub Actions"
 
+
+

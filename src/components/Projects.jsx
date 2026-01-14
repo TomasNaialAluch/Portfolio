@@ -36,7 +36,7 @@ const Projects = () => {
       description: 'Aplicación web desarrollada con React. Proyecto de e-commerce con funcionalidades avanzadas.',
       technologies: ['React', 'CSS', 'Firebase'],
       github: 'https://github.com/TomasNaialAluch/PastaVicenzo',
-      live: '#',
+      live: 'https://pastavicenzo.web.app',
       image: '/projects/pastavicenzo.jpg'
     }
   ]

@@ -54,13 +54,18 @@ El `index.html` que GitHub Pages debe servir debería tener:
 3. Guarda los cambios
 4. El sitio debería decir: **"Your site is live at https://tomasnaialaluch.github.io/Portfolio/"** y mostrar que fue desplegado por un workflow de GitHub Actions
 
-### Opción 2: Ejecutar el Workflow Manualmente
+### Opción 2: Ejecutar el Workflow Manualmente (NECESARIO AHORA)
+
+**IMPORTANTE:** Aunque GitHub Pages está configurado para usar "GitHub Actions", el workflow necesita ejecutarse manualmente por primera vez o después de cambios en la configuración.
 
 1. Ve a: https://github.com/TomasNaialAluch/Portfolio/actions
-2. Selecciona el workflow **"Deploy to GitHub Pages"**
-3. Haz clic en **"Run workflow"**
-4. Selecciona la rama **"main"**
-5. Haz clic en **"Run workflow"**
+2. En la lista de workflows a la izquierda, busca y haz clic en **"Deploy to GitHub Pages"**
+3. En la parte superior derecha, verás un botón **"Run workflow"** (puede estar en un dropdown)
+4. Haz clic en **"Run workflow"**
+5. Asegúrate de que la rama sea **"main"** (ya debería estar seleccionada)
+6. Haz clic en el botón verde **"Run workflow"** de nuevo
+7. Espera 2-5 minutos a que termine el workflow
+8. Cuando veas un checkmark verde (✓), el sitio debería estar actualizado
 
 ### Opción 3: Verificar Archivos del Build
 
